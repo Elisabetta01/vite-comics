@@ -21,7 +21,7 @@
 
 <style scoped lang="scss">
      main{
-          background-color: black;
+          background-color: #1c1c1c;
           margin-top: 5px;
           .container{
                width: 80%;

@@ -4,6 +4,7 @@
   import MainComp from './components/MainComp.vue';
   import FooterTop from './components/FooterTop.vue';
   import FooterMid from './components/FooterMid.vue';
+  import FooterBottom from './components/FooterBottom.vue';
 
   export default{
     name: "App",
@@ -12,6 +13,7 @@
       MainComp,
       FooterTop,
       FooterMid,
+      FooterBottom,
     }
   }
 
@@ -22,6 +24,7 @@
   <MainComp/>
   <FooterTop/>
   <FooterMid/>
+  <FooterBottom/>
 </template>
 
 <style lang="scss">
