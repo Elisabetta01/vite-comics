@@ -2,12 +2,14 @@
 
   import HeaderComp from './components/HeaderComp.vue';
   import MainComp from './components/MainComp.vue';
+  import FooterTop from './components/FooterTop.vue';
 
   export default{
     name: "App",
     components: {
       HeaderComp,
       MainComp,
+      FooterTop,
     }
   }
 
@@ -16,6 +18,7 @@
 <template>
   <HeaderComp/>
   <MainComp/>
+  <FooterTop/>
 </template>
 
 <style lang="scss">
