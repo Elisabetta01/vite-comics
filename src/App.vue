@@ -3,6 +3,7 @@
   import HeaderComp from './components/HeaderComp.vue';
   import MainComp from './components/MainComp.vue';
   import FooterTop from './components/FooterTop.vue';
+  import FooterMid from './components/FooterMid.vue';
 
   export default{
     name: "App",
@@ -10,6 +11,7 @@
       HeaderComp,
       MainComp,
       FooterTop,
+      FooterMid,
     }
   }
 
@@ -19,6 +21,7 @@
   <HeaderComp/>
   <MainComp/>
   <FooterTop/>
+  <FooterMid/>
 </template>
 
 <style lang="scss">
