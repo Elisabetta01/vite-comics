@@ -78,7 +78,9 @@
                align-items: center;
                width: 80%;
                margin: 0 auto;
-               padding: 20px;
+               img{
+                    width: 80px;
+               }
                ul{
                     display: flex;
                     li{
@@ -91,13 +93,13 @@
                               text-transform: uppercase; 
                          }
                          &.active {
-                              border-bottom: 2px solid blue; 
+                              border-bottom: 5px solid blue; 
                          }
                          &.active a {
                               color: blue;
                          }
                          &:hover {
-                              border-bottom: 2px solid blue; 
+                              border-bottom: 5px solid blue; 
                          }
                          &:hover a{
                               color: blue; 
